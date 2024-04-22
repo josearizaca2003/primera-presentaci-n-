@@ -19,5 +19,6 @@ if(isset($_GET['id']) && !empty($_GET['id'])) {
 } else {
     // No se proporcionó un ID válido, mostrar un mensaje de error
     echo "ID de empresa no válido.";
+    
 }
 ?>
